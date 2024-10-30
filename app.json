@@ -1,5 +1,5 @@
 {
-  "name":"Zokou-2.0",
+  "name":"David-2.0",
   "description":"bot whatsapp développé par djalega++",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
@@ -10,7 +10,7 @@
     "PREFIXE":
     {
       "description":"choisissez votre préfixe",
-      "value":"#",
+      "value":"+",
       "required":true
     },
     "LECTURE_AUTO_STATUS":
@@ -28,7 +28,7 @@
     "NOM_BOT" : {
        
       "description":"Un nom pour votre bot",
-      "value":"Zokou-MD",
+      "value":"David bot",
       "required":false
 
     } ,
@@ -71,7 +71,7 @@
     "SESSION_ID":
     {
       "description":"veuillez renseigner votre id de session",   
-      "value":"",
+      "value":"Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib05HSXo5Q0V6TGE1VmNBLzUwZUlERWhtS0dtNDBXM2NvTHV3NmxodWxHST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUElGVU9xY2pMZ2hCbVVmak5iNFBDWFpiVFJlMVVpQzRqaTNOMy85TlJYTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJJQ20xWnFWTGtKYnhkZEtWK1BtSWZvN3phYkoyWUtRSUhlL212M0NvcVZjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJaZlNWV3NDMFhFVXNRQVI1eDlqMmdKRjhpQ3ZvRGQ1M09Fd2oyR2xZMGlZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9GK3Rla1BwVUdiOXVYSklzYzcwVFNsZkxhMm0weldhbGZzYWxiZmh0bDA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im12aDVNYlpwSllzbXAvdGNnb0xwb2d1WGkrd1o0eDg1ei9ZUkRoNnl2enM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNlB4aWIrU25reS9YdXJ6ajRXK3c1TysrV0dzN2FKcFFNdDg2eWthSHEzUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib0lFdUhlVHdDODVLZzN1ZVhqdG94bzR6L2VUa1owd3k1RStUWC94bjRFaz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im5kSEJBSnR6SU9tWUhqMHJWQVpzQWJoNG1zSWFVV0Y3MWgyQXd4MkFCNjM1RCt1RXhwRXhmemsvVlF0Tjc2U0ZFVmVDRUdsMS9XOXVVdTd0cE5qUER3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE3LCJhZHZTZWNyZXRLZXkiOiJsd2svQU5LVExTbFM0RlVPWmwvc1BRWHFlRk84RHRnTFF2QysyVHIvQ0gwPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiSnJiUXZSbW5Sb2VoSTBCaUFiMXVlQSIsInBob25lSWQiOiI0MGZlZjE5OC03MjRhLTRkMjYtYWZjOS1jNTA2NWZjNjBjOTkiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWnlXb2tXMk5Jc0tNWkpJN1FRbHFKOTBWakcwPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IktHaHJ3amlMY0JsTEZGNlNKZFpveFRwdzBNVT0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJQTEY5TUxBUCIsIm1lIjp7ImlkIjoiMjQzODU5MzU4OTk0OjE3QHMud2hhdHNhcHAubmV0IiwibmFtZSI6ImRhdmlkbXBvbmdvMTAwIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNNZkM4dE1IRUwzMWlia0dHQVlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJwNDhZTWk0UUNYQ29sRS9zNjE0WHVpUnFNWERwL0g1TzRBWGt0RkxnUFI0PSIsImFjY291bnRTaWduYXR1cmUiOiJWUHJRb1hYeGVTYlNTOUlYVm9KUmlXcFRSWDUvQkVyZDVaQmpqcENSWUU2K1I5RWM3N0tGaG1YczZJT2VFdnUxVUwrWWp5eVhxZkVHb2ZKZURDVkJEUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiU0NScUFLeGtybmJ2WU1IUWt2blkwNVVhMDZuSm1zK3JLSmpNZWdEdzhDcVJQUC9TQ1VZZ1A3V3ErOTZ5eUtwN0NpNXp3UkFoYVlQWTN6TmUvLy9MQkE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNDM4NTkzNTg5OTQ6MTdAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCYWVQR0RJdUVBbHdxSlJQN090ZUY3b2thakZ3NmZ4K1R1QUY1TFJTNEQwZSJ9fV0sInBsYXRmb3JtIjoic21iYSJ9",
       "required":true
       
     },
@@ -80,14 +80,14 @@
     
     "description": "Votre nom",
     "required": false,
-    "value": "Djalega++"
+    "value": "David mpongo"
   },
     "NUMERO_OWNER":
   {
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22891733300"
+    "value": "243903473572"
   },
     
 
